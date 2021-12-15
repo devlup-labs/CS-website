@@ -28,30 +28,12 @@ chatBtn.addEventListener('click', ()=>{
 // send msg 
 submitBtn.addEventListener('click', ()=>{
     let userInput = inputElm.value;
-
+    let lenghtInput = inputElm.value.length;
+    if(lenghtInput!=0){
     let temp = `<div class="out-msg">
     <span class="my-msg">${userInput}</span>
     </div>`;
-
     chatArea.insertAdjacentHTML("beforeend", temp);
     inputElm.value = '';
-
+    }
 })
-
-// submitBtn.addEventListener("keyup", function(event){
-//   let userInput = inputElm.value;
-
-
-//   if(event.keyCode===13){
-//     event.preventDefault();
-
-//   document.getElementById('submitBtn').click();
-//   }
-//   let temp = `<div class="out-msg">
-//   <span class="my-msg">${userInput}</span>
-//   </div>`;
-
-//   chatArea.insertAdjacentHTML("beforeend", temp);
-//   inputElm.value = '';
-
-// })
