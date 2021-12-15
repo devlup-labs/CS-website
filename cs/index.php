@@ -1,6 +1,7 @@
 <?php
 include 'head.html';
 ?>
+
     <head>
         <title>Student Wellbeing Committee - IIT Jodhpur</title>
     </head>
@@ -396,4 +397,7 @@ include 'navbar.html';
 <!--Footer-->
 <?php
 include 'footer.html';
+?>
+<?php
+include 'index.html';
 ?>

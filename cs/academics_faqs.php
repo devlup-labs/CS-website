@@ -5,6 +5,12 @@ include 'head.html';
     <title>Academics FAQs</title>
 </head>
 <body>
+
+
+<?php
+include 'index.html';
+?>
+
 <!--Navbar-->
 <?php
 include 'navbar.html';

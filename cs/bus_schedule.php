@@ -8,6 +8,11 @@ include 'head.html';
 
 <body style="text-align:center">
     <!--Navbar-->
+    
+    <?php
+include 'index.html';
+?>
+
     <?php
     include 'navbar.html';
     ?>

@@ -46,6 +46,11 @@ include 'head.html';
     </style>
 </head>
 <body>
+
+<?php
+include 'index.html';
+?>
+
 <?php
 include 'navbar.html';
 ?>
