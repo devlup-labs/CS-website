@@ -5,6 +5,13 @@ include 'head.html';
         <title>Societies - IIT Jodhpur</title>
     </head>
     <body>
+
+
+<?php
+include 'index.html';
+?>
+
+
 <!--Navbar-->
 <?php
 include 'navbar.html';

@@ -5,6 +5,11 @@ include 'head.html';
     <title>Misc FAQs</title>
 </head>
 <body>
+
+<?php
+include 'index.html';
+?>
+
 <!--Navbar-->
 <?php
 include 'navbar.html';
